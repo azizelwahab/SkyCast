@@ -1,0 +1,16 @@
+{
+  "name": "skycast",
+  "version": "2.0.0",
+  "description": "SkyCast 2.0: a weather dashboard with an Express API proxy, caching and a responsive UI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
